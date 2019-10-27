@@ -4,7 +4,6 @@
 
 body {
   background-color: #FFFDFD;
-  font-size: 20px;
   font-family: 'SF Pro Text', Helvetica, Arial, sans-serif;
   line-height: 140%;
 }
@@ -44,7 +43,6 @@ body {
 }
 
 .route-data {
-  display: block;
 }
 
 .arrow {
@@ -54,26 +52,30 @@ body {
 }
 
 .direction {
-  display: block;
   border-top: 2px solid #7E7C7C;
   padding: 20px;
 }
 
+.content > div {
+  float: left;
+}
 .content {
   margin-bottom: 1%;
-  display: inline;
+  overflow: auto;
+  font-size: 15px;
+  margin-top: 11px;
 }
 
 .line {
-  display: inline-block;
+  float: left;
 }
 
 .destination {
-  display: inline-block;
+  float: left;
 }
 
 .frequency {
-  display: inline-block;
+  float: left;
   margin-left: 20%;
 }
 
