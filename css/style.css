@@ -72,7 +72,7 @@ body {
   margin-top: 11px;
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 20em){
    .content {
    color: #FFFFFF;
   }
