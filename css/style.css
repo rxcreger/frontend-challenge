@@ -8,6 +8,11 @@ body {
   line-height: 140%;
 }
 
+@media screen and (max-width: 40em) {
+ body {
+   background-color: #FFFDFD;
+ }
+
 .searchbar {
   position: absolute;
   left: 4%;
@@ -59,11 +64,18 @@ body {
 .content > div {
   float: left;
 }
+
 .content {
   margin-bottom: 1%;
   overflow: auto;
   font-size: 15px;
   margin-top: 11px;
+}
+
+@media screen and (max-width: 575px){
+   .content {
+   color: #FFFFFF;
+  }
 }
 
 .line {
@@ -76,7 +88,7 @@ body {
 
 .frequency {
   float: left;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 h1 {
