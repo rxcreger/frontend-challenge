@@ -71,18 +71,19 @@ body {
 
 .line {
   float: left;
+  width: 20%;
 }
 
 .destination {
   float: left;
-  margin-left: 20px;
+  width: 40%;
 }
 
 .frequency {
   float: left;
-  margin-left: 40px;
+  width: 40%;
 }
 
-h1 {
+.line h1, .destination h1, .frequency h1 {
   font-weight: 700;
 }
