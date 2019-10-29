@@ -8,8 +8,14 @@ body {
   line-height: 140%;
 }
 
-.searchbar {
+.search {
+  width: 100%;
+  display: inline-block;
   position: absolute;
+}
+
+.searchbar {
+  position: relative;
   left: 4%;
   right: 4.27%;
   top: 3%;
@@ -20,14 +26,13 @@ body {
 }
 
 .searchterm {
-  display: inline-block;
   position: relative;
   padding: 3%;
   margin-left: 7%;
 }
 
 .search-icon {
-  display: inline-block;
+  float: left;
   position: relative;
   margin: 3%;
 }
@@ -67,6 +72,7 @@ body {
   margin-top: 11px;
   display: inline-block;
   max width: 375px;
+  width: 100%;
 }
 
 .line {
