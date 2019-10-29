@@ -9,17 +9,15 @@ body {
 }
 
 .search {
-  width: 100%;
+  width: 94%;
   display: inline-block;
   position: absolute;
+  top: 3%;
+  left: 4%;
 }
 
 .searchbar {
   position: relative;
-  left: 4%;
-  right: 4.27%;
-  top: 3%;
-  bottom: 91.6%;
   background: #FFFDFD;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
@@ -50,15 +48,18 @@ body {
 .route-data {
 }
 
-.arrow {
-  float: right;
-  margin-top: 2%;
-  width: 5%;
-}
 
 .direction {
   border-top: 2px solid #7E7C7C;
   padding: 20px;
+  width: 100%;
+}
+
+.arrow {
+  position: relative;
+  float: right;
+  padding: 2%;
+  width: 6%;
 }
 
 .content > div {
@@ -66,13 +67,13 @@ body {
 }
 
 .content {
-  margin-bottom: 1%;
+  position: relative;
+  margin-top: 2%;
   overflow: auto;
   font-size: 15px;
-  margin-top: 11px;
   display: inline-block;
   max width: 375px;
-  width: 100%;
+  width: 94%;
 }
 
 .line {
