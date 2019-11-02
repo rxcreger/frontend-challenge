@@ -8,7 +8,7 @@ body {
   line-height: 140%;
 }
 
-.map {
+.image {
   display: block;
 }
 
@@ -31,6 +31,14 @@ body {
   position: relative;
   padding: 3%;
   margin-left: 7%;
+}
+
+.search input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border: none;
 }
 
 .search-icon {
@@ -58,9 +66,6 @@ body {
   width: 100%;
 }
 
-.drection {
-
-}
 
 .arrow {
   position: relative;
