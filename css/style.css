@@ -70,6 +70,7 @@ body {
 .arrow {
   position: relative;
   float: right;
+  margin-top: 1%;
   padding: 2%;
   width: 6%;
   align: center;
@@ -81,27 +82,24 @@ body {
 
 .content {
   position: relative;
-  margin-top: 2%;
+  margin: 1%;
   overflow: auto;
   font-size: 15px;
-  display: inline-block;
+  line-height: 140%;
+  display: block;
   max width: 375px;
   width: 94%;
 }
 
 .line {
   float: left;
-  width: 30%;
-}
-
-.destination {
-  float: left;
-  width: 35%;
+  display: inline;
+  width: 100%;
 }
 
 .frequency {
   float: left;
-  width: 35%;
+  width: 100%;
 }
 
 .line h1, .destination h1, .frequency h1 {
