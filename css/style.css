@@ -66,6 +66,10 @@ body {
   width: 100%;
 }
 
+.first_frequency {
+  color: #016B13;
+}
+
 .arrow {
   position: relative;
   float: right;
@@ -93,11 +97,19 @@ body {
   width: 100%;
 }
 
+.osline {
+  color: #6F6C6C;
+}
 .frequency {
   float: left;
   width: 100%;
 }
 
 .line h1, .destination h1, .frequency h1 {
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.frequency h2 {
+  font-weight: 400;
+  color: #6F6C6C;
 }
